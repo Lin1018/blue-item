@@ -1,2 +1,2 @@
 # blue-item
-use express build blog!
+使用express框架搭建blog
