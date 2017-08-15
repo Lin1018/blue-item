@@ -9,7 +9,7 @@ const cookieSession=require('cookie-session');
 const consolidate=require('consolidate');
 
 var app=express();
-app.listen(3000);
+app.listen(8080);
 console.log('Server running at port 3000');
 
 //1.获取请求数据
