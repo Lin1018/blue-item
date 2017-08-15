@@ -1,6 +1,5 @@
 const express = require('express');
 const mysql = require('mysql');
-const async = require('async');
 
 var db = mysql.createPool({
     host:'localhost',

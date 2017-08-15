@@ -7,10 +7,9 @@ const mysql=require('mysql');
 const cookieParser=require('cookie-parser');
 const cookieSession=require('cookie-session');
 const consolidate=require('consolidate');
-const expressRoute=require('express-route');
 
 var app=express();
-app.listen(3000);
+app.listen(3003);
 console.log('Server running at port 3000');
 
 //1.获取请求数据
