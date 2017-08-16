@@ -11,7 +11,7 @@ var db = mysql.createPool({
 
 module.exports = function(){
     var router = express.Router();
-
+    console.log('dddd')
     //login请求
     router.get('/',function(req,res){
         res.render('admin/login.html',{});
