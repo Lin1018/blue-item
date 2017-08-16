@@ -1,8 +1,8 @@
 const express=require('express');
 const static=require('express-static');
-const bodyParser=require('body-parser');    //处理表单数据
-const multer=require('multer');     //处理文件数据
-const multerObj=multer({dest: './static/upload'});   //文件存放位置
+const bodyParser=require('body-parser');    // 处理表单数据
+const multer=require('multer');     // 处理文件数据
+const multerObj=multer({dest: './static/upload'});   // 文件存放位置
 const mysql=require('mysql');
 const cookieParser=require('cookie-parser');
 const cookieSession=require('cookie-session');
