@@ -1,2 +1,2 @@
 # blue-item
-mysql +　express搭建blog
+MySQL + Express搭建blog
