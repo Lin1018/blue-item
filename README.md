@@ -1,2 +1,2 @@
 # blue-item
-使用express框架搭建blog
+mysql +　express搭建blog
